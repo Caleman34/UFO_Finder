@@ -12,7 +12,7 @@ Using a data set from 1/1/2010 to 1/14/2010,
 
 ![1](static/images/1.png)
 
-![2](static/images/2.PNG)
+![2](static/images/2.png)
 
 # UFO_Finder
 
