@@ -6,9 +6,9 @@ Code can be run using Visual Studio Code
 
 Using a data set from 1/1/2010 to 1/14/2010, 
 
-![3](static/images/3.png)
+![3](static/images/3.PNG)
 
-![4](static/images/4.png)
+![4](static/images/4.PMG)
 
 ![1](static/images/1.png)
 
