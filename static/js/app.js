@@ -28,11 +28,11 @@ button.on("click", runFilter);
 function runFilter() {
   d3.event.preventDefault();
   // assign input value in the form to variable
-  var dateInput = d3.select("#datetime").property("value");
-  var cityInput = d3.select("#city").property("value");
-  var stateInput = d3.select("#state").property("value");
-  var countryInput = d3.select("#country").property("value");
-  var shapeInput = d3.select("#shape").property("value");
+  var dateInput = d3.select("#datetime").property("value").trim();
+  var cityInput = d3.select("#city").property("value").toLowerCase().trim();
+  var stateInput = d3.select("#state").property("value").toLowerCase().trim();
+  var countryInput = d3.select("#country").property("value").toLowerCase().trim();
+  var shapeInput = d3.select("#shape").property("value").toLowerCase().trim();
   
   // track of inputs on console log
   console.group(`Date: ${dateInput}`);
