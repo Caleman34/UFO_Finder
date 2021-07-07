@@ -27,12 +27,31 @@ button.on("click", runFilter);
 function runFilter() {
   d3.event.preventDefault();
   // assign input value in the form to variable
-  var inputElement = d3.select(".form-control");
-  var inputValue = inputElement.property("value");
+  var dateInput = d3.select("#datetime").property("value");
+  var cityInput = d3.select("#city").property("value");
+  var stateInput = d3.select("#state").property("value");
+  var countryInput = d3.select("#country").property("value");
+  var shapeInput = d3.select("#shape").property("value");
+  
+  // track of inputs on console log
+  console.group(`Date: ${dateInput}`);
+  console.group(`City: ${cityInput}`);
+  console.group(`State: ${stateInput}`);
+  console.group(`Country: ${countryInput}`);
+  console.group(`Shape: ${shapeInput}`);
+
   // empty the table object before appending filter results
   tbody.html("");
+
   // Filter sightings to specified date
-  var results = tableData.filter(sighting => sighting.datetime == inputValue);
+  var results = tableData.filter(sighting => (sighting.datetime == dateInput || dateInput == "") &&
+                                (sighting.city == cityInput || cityInput == "") &&
+                                (sighting.state == stateInput || stateInput == "") &&
+                                (sighting.country == countryInput || countryInput == "") &&
+                                (sighting.shape == shapeInput || shapeInput == "")
+                                );
+  
+  
   results.forEach((uforesults) => {
     var row = tbody.append("tr");
     Object.entries(uforesults).forEach(([key, value]) => {
