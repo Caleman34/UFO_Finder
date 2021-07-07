@@ -13,7 +13,7 @@ tableData.forEach(function(ufoData) {
   });
 });
 
-// console.log(tableData);
+console.log(tableData);
 
 // filter the data
 var form = d3.select("#datetime");
