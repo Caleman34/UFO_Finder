@@ -23,13 +23,6 @@ var reset = d3.select("#reset-btn");
 // Assign handler function to target objects in HTML file
 form.on("submit", runFilter);
 button.on("click", runFilter);
-reset.on("click", resetFilter);
-
-// event handler for reset button
-function resetFilter() => {
-  tbody.html("");
-  datetime.node().value = 
-}
 
 // Declare handler function
 function runFilter() {
@@ -68,3 +61,5 @@ function runFilter() {
     });
   });
   }
+
+  
