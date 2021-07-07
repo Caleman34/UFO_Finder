@@ -6,13 +6,13 @@ Code can be run using Visual Studio Code
 
 Using a data set from 1/1/2010 to 1/14/2010, 
 
-![3](Images/3.png)
+![3](static/images/3.png)
 
-![4](Images/4.png)
+![4](static/images/4.png)
 
-![1](Images/1.png)
+![1](static/images/1.png)
 
-![2](Images/2.PNG)
+![2](static/images/2.PNG)
 
 # UFO_Finder
 
