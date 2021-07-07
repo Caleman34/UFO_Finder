@@ -8,7 +8,7 @@ Given a data set from 1/1/2010 to 1/14/2010; JavaScript, HTML, CSS, and D3.js ar
 
 # UFO Finder
 
-## Click <a href="https://caleman34.github.io/UFO_Finder/index.html" target="_blank">here</a> for live webpage
+## Click <a href="https://caleman34.github.io/UFO_Finder/index.html" target= "_blank">here</a> for live webpage
 
 ![3](static/images/3.PNG)
 
