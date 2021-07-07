@@ -4,11 +4,11 @@ Repository Size: 4.91 MB
 
 Code can be run using Visual Studio Code
 
-Using a data set from 1/1/2010 to 1/14/2010, 
+Using a given data set from 1/1/2010 to 1/14/2010, JavaScript, HTML, CSS, and D3.js are all used to code a webpage that has a dynamic table that can be filtered based on the given values of the specific data set for UFO sightings.
 
-# UFO_Finder
+# UFO Finder
 
-## Click <a href="https://caleman34.github.io/UFO_Finder/index.html" rel="noopener" target="_blank">here</a> for live webpage on Github.com
+## Click <a href="https://caleman34.github.io/UFO_Finder/index.html" target="_blank">here</a> for live webpage
 
 ![3](static/images/3.PNG)
 
